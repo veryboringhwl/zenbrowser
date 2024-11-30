@@ -43,3 +43,7 @@ Available Configs
 | test1                   | ![(placeholder)](assets/darkplaceholder.png)   |
 | test2                   | ![(placeholder)](assets/lightplaceholder.png)  |
 | test3                   | ![(placeholder)](assets/darkplaceholder.png)   |
+
+1. browser.tabs.allow_transparent_browser = true
+2. devtools.debugger.prompt-connection = false	
+3. devtools.debugger.remote-enabled = true
