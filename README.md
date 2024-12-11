@@ -1,16 +1,5 @@
-# Zen Browser theme
-A customisable Zen Browser theme
-
-## Preview
-| Theme                  | Light                                    | Dark                                   |
-| ---------------------- | ---------------------------------------- | -------------------------------------- |
-| Default                | ![(image)](assets/lightplaceholder.png)  | ![(image)](assets/darkplaceholder.png) |
-| Placeholder            | ![(image)](assets/lightplaceholder.png)  | ![(image)](assets/darkplaceholder.png) |
-
-## Features 
-- Vertical Tabs
-- Custom new tab layout
-- Light and dark mode support
+# Zen Browser tweaks
+A customisable Zen Browser tweaks
 
 ## Installation
 
@@ -24,11 +13,13 @@ A customisable Zen Browser theme
 
 ### Customization
 
+To enable tweaks, you need to create a custom boolean preference in about:config.
+
 To enable a config:
 
 1. Go to about:config.
 2. Create a custom boolean preference by typing the preference name 
-3. Click the plus button
+3. Click the plus button and set to true
 
 To disable a config:
 
@@ -37,13 +28,14 @@ To disable a config:
 
 Available Configs
 
-| Configs                 |  Screenshot                                    |
-|-------------------------|------------------------------------------------|
-| test0                   | ![(placeholder)](assets/lightplaceholder.png)  |
-| test1                   | ![(placeholder)](assets/darkplaceholder.png)   |
-| test2                   | ![(placeholder)](assets/lightplaceholder.png)  |
-| test3                   | ![(placeholder)](assets/darkplaceholder.png)   |
+| Configs                               | Value        |  Screenshot                                   |
+|---------------------------------------|--------------|-----------------------------------------------|
+| tweaks.sidebar-url                    | true         | ![(placeholder)](assets/lightplaceholder.png) |
+| browser.toolbars.bookmarks.visibility | never        | ![(placeholder)](assets/darkplaceholder.png)  |
+| browser.tabs.allow_transparent_browser| true         | ![(placeholder)](assets/lightplaceholder.png) |
+| devtools.debugger.prompt-connection   | false        | ![(placeholder)](assets/darkplaceholder.png)  |
+| devtools.debugger.remote-enabled      | true         | ![(placeholder)](assets/lightplaceholder.png) |
+| zen.view.use-single-toolbar           | true         | ![(placeholder)](assets/darkplaceholder.png)  |
+| zen.view.hide-window-controls         | false        | ![(placeholder)](assets/lightplaceholder.png) |
+| zen.tab-unloader.excluded-urls        | example.com, | ![(placeholder)](assets/darkplaceholder.png)  | 
 
-1. browser.tabs.allow_transparent_browser = true
-2. devtools.debugger.prompt-connection = false	
-3. devtools.debugger.remote-enabled = true
